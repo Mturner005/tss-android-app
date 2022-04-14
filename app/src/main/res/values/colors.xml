@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="LightRed">#ec3c53</color>
+    <color name="LighterRed">#f3c3c7</color>
+    <color name="LightBlue">#31c4f3</color>
+    <color name="LighterBlue">#c9edfc</color>
+    <color name="LightGreen">#56c0a5</color>
+    <color name="Purple">#69256c</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="blue">#0000FF</color>
+    <color name="orange">#FFA500</color>
+    <color name="green">#00FF00</color>
+    <color name="purple">#800080</color>
+</resources>

@@ -1,0 +1,5 @@
+//include ':app', ':iterableapi', ':iterableapi-ui'
+//project(':iterableapi').projectDir = new File(settingsDir, '../iterable-android-sdk/iterableapi')
+//project(':iterableapi-ui').projectDir = new File(settingsDir, '../iterable-android-sdk/iterableapi-ui')
+include ':app'
+rootProject.name = "tssandroidapp"

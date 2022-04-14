@@ -1,0 +1,378 @@
+<resources>
+    <string name="app_name">tssandroidapp</string>
+    <string name="dashboard_title">My Dashboard</string>
+    <string name="logs">LOGS</string>
+    <string name="movie">MOVIES</string>
+    <string name="mobile">MOBILE INBOX</string>
+    <string name="weather">WEATHER</string>
+    <string name="jokes">JOKES</string>
+    <string name="random">RANDOM</string>
+    <string name="facts">FACTS</string>
+    <string name="timezones">TIME ZONES</string>
+    <string name="custom">CUSTOM</string>
+    <string name="events">EVENTS</string>
+    <string name="default_location">Fetching Location</string>
+    <string name="default_temp">NA</string>
+    <string name="change_city_description">Click Here to Change City</string>
+    <string name="weather_description">This is the weather symbol</string>
+    <string name="back_button_description">Dismiss Change City Screen</string>
+    <string name="get_weather">Change City</string>
+    <string name="default_query">Enter city name</string>
+    <string name="banner">Tech Support App v2.0</string>
+    <string name="bannerDescription">Login Page</string>
+    <string name="bannerDescription2">Register New User</string>
+    <string name="bannerDescription3">Reset Your Password</string>
+    <string name="email">Email Address</string>
+    <string name="email2">Enter Your Email</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="forgotPassword">Forgot Password?</string>
+    <string name="register">Register</string>
+    <string name="userName">User Name</string>
+    <string name="registerUser">REGISTER USER</string>
+    <string name="resetPassword">RESET PASSWORD</string>
+    <string name="inbox">INBOX</string>
+    <string name="joke_button">Generate Joke</string>
+    <string name="month">Month</string>
+    <string name="day">Day</string>
+    <string name="year">Year</string>
+    <string name="hour">Hour</string>
+    <string name="minute">Minute</string>
+    <string name="seconds">Seconds</string>
+    <string name="utc_title_3">CURRENT TIME</string>
+    <string name="submit">submit</string>
+    <string name="redbutton">Red Button</string>
+    <string name="yellowbutton">Yellow Button</string>
+    <string name="bluebutton">Blue Button</string>
+    <string name="orangebutton">Orange Button</string>
+    <string name="greenbutton">Green Button</string>
+    <string name="purplebutton">Purple Button</string>
+    <string name="movieposter">MoviePoster</string>
+    <string name="click_the_button_below_to_get_a_movie_suggestion">Click The Button Below To Get A Movie Suggestion</string>
+    <string name="click_the_button_below_to_get_an_80s_movie_suggestion">Click The Button Below To Get An 80s Movie Suggestion</string>
+    <string name="button">SUGGEST</string>
+
+    <string-array name="months">
+        <item>JANUARY</item>
+        <item>FEBRUARY</item>
+        <item>MARCH</item>
+        <item>APRIL</item>
+        <item>MAY</item>
+        <item>JUNE</item>
+        <item>JULY</item>
+        <item>AUGUST</item>
+        <item>SEPTEMBER</item>
+        <item>OCTOBER</item>
+        <item>NOVEMBER</item>
+        <item>DECEMBER</item>
+    </string-array>
+
+    <string-array name="days">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+
+    <string-array name="years">
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+        <item>2026</item>
+    </string-array>
+
+    <string-array name="hours">
+        <item>00</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+    </string-array>
+
+    <string-array name="minutes">
+        <item>00</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+    </string-array>
+
+    <string-array name="seconds">
+        <item>00</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+    </string-array>
+
+
+    <string-array name="time_zones">
+        <item>ACT</item>
+        <item>ADT</item>
+        <item>AET</item>
+        <item>AFT</item>
+        <item>AMT</item>
+        <item>ART</item>
+        <item>AST</item>
+        <item>AZT</item>
+        <item>BNT</item>
+        <item>BIT</item>
+        <item>BOT</item>
+        <item>BRT</item>
+        <item>BST</item>
+        <item>BTT</item>
+        <item>CAT</item>
+        <item>CCT</item>
+        <item>CDT</item>
+        <item>CET</item>
+        <item>CKT</item>
+        <item>CLT</item>
+        <item>COT</item>
+        <item>CST</item>
+        <item>CVT</item>
+        <item>CXT</item>
+        <item>DFT</item>
+        <item>EAT</item>
+        <item>ECT</item>
+        <item>ECT</item>
+        <item>EDT</item>
+        <item>EET</item>
+        <item>EGT</item>
+        <item>EST</item>
+        <item>FET</item>
+        <item>FJT</item>
+        <item>FKT</item>
+        <item>FNT</item>
+        <item>GET</item>
+        <item>GFT</item>
+        <item>GIT</item>
+        <item>GMT</item>
+        <item>GST</item>
+        <item>GST</item>
+        <item>GYT</item>
+        <item>HDT</item>
+        <item>HST</item>
+        <item>HKT</item>
+        <item>HMT</item>
+        <item>ICT</item>
+        <item>IDT</item>
+        <item>IOT</item>
+        <item>IST</item>
+        <item>IST</item>
+        <item>IST</item>
+        <item>JST</item>
+        <item>KGT</item>
+        <item>KST</item>
+        <item>MDT</item>
+        <item>MET</item>
+        <item>MHT</item>
+        <item>MIT</item>
+        <item>MMT</item>
+        <item>MSK</item>
+        <item>MST</item>
+        <item>MST</item>
+        <item>MUT</item>
+        <item>MVT</item>
+        <item>MYT</item>
+        <item>NCT</item>
+        <item>NDT</item>
+        <item>NFT</item>
+        <item>NPT</item>
+        <item>NST</item>
+        <item>NUT</item>
+        <item>PDT</item>
+        <item>PET</item>
+        <item>PGT</item>
+        <item>PHT</item>
+        <item>PKT</item>
+        <item>PST</item>
+        <item>PWT</item>
+        <item>PYT</item>
+        <item>SBT</item>
+        <item>SCT</item>
+        <item>SDT</item>
+        <item>SGT</item>
+        <item>SRT</item>
+        <item>SST</item>
+        <item>SST</item>
+        <item>THA</item>
+        <item>TFT</item>
+        <item>TJT</item>
+        <item>TKT</item>
+        <item>TLT</item>
+        <item>TMT</item>
+        <item>TRT</item>
+        <item>TOT</item>
+        <item>TVT</item>
+        <item>UTC</item>
+        <item>UYT</item>
+        <item>UZT</item>
+        <item>VET</item>
+        <item>VUT</item>
+        <item>WAT</item>
+        <item>WET</item>
+        <item>WIB</item>
+        <item>WIT</item>
+        <item>WGT</item>
+        <item>WST</item>
+    </string-array>
+
+</resources>

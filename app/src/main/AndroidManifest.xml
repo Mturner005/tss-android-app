@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="turnertss.com.tssandroidapp">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Tssandroidapp"
+        android:name=".TssApplication">
+        <activity android:name=".ForgotPassword"></activity>
+        <activity android:name=".RegisterUser" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:scheme="https"
+                    android:host="links.turnertechsupport.com"
+                    android:pathPrefix="/a/" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:scheme="http"
+                    android:host="links.turnertechsupport.com"
+                    android:pathPrefix="/a/" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Dashboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Weather"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Movies"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Logs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Jokes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RandomFacts"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TimeZones"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CustomEvents"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>
