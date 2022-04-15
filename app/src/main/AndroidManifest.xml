@@ -32,7 +32,8 @@
                 <data
                     android:scheme="https"
                     android:host="links.turnertechsupport.com"
-                    android:pathPrefix="/a/" />
+                    android:pathPrefix="/a/"
+                    />
             </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -43,7 +44,8 @@
                 <data
                     android:scheme="http"
                     android:host="links.turnertechsupport.com"
-                    android:pathPrefix="/a/" />
+                    android:pathPrefix="/a/"
+                    />
             </intent-filter>
         </activity>
         <activity
